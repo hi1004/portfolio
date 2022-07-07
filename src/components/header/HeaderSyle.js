@@ -50,11 +50,9 @@ export const TextContainer = styled.div`
 `;
 
 export const ToggleButton = styled(Button)`
-  && {
-    position: absolute;
-    top: -5rem;
-    right: 0;
-  }
+  position: absolute;
+  top: -5rem;
+  right: 0;
 `;
 
 /* HEADER SOCIAL */

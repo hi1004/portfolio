@@ -35,14 +35,14 @@ const Header = ({ toggleTheme, themeMode }) => {
         </ToggleButton>
 
         <TextContainer>
-          <h5>Hello I'm</h5>
+          <h3>Hello I'm</h3>
           <h1>Oh ByeongHeon</h1>
           <TextLight>Web Frontend Developer</TextLight>
-          <h5>
+          <h3>
             人々が<PrimaryText>必要とするサービスを、</PrimaryText> <br />
             人々と<PrimaryText>一緒に作る時に幸せを感じる</PrimaryText>
             開発者です。
-          </h5>
+          </h3>
         </TextContainer>
 
         <CTA />
