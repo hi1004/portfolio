@@ -4,6 +4,7 @@ import {
   Button,
   ThemeProvider as MuiThemeProvider,
   createTheme,
+  StyledEngineProvider,
 } from '@mui/material';
 import GlobalStyle from './styles/GlobalStyle';
 import Header from './components/header/Header';
@@ -13,6 +14,8 @@ import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
 import { lightTheme, darkTheme } from './styles/theme';
 import { useTheme } from './hooks/useTheme';
+import Nav from './components/nav/Nav';
+import Portfolio from './components/portfolio/Portfolio';
 
 const MuiDarkTheme = createTheme({
   palette: {
@@ -36,17 +39,21 @@ function App() {
   const theme = themeMode === 'light' ? lightTheme : darkTheme;
   const MUItheme = themeMode === 'light' ? MuiLightTheme : MuiDarkTheme;
   return (
-    <MuiThemeProvider theme={MUItheme}>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle themeMode={themeMode} />
+    <StyledEngineProvider injectFirst>
+      <MuiThemeProvider theme={MUItheme}>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle themeMode={themeMode} />
 
-        <Header toggleTheme={toggleTheme} themeMode={themeMode} />
-        <Experience />
-        <About />
-        <Contact />
-        <Footer />
-      </ThemeProvider>
-    </MuiThemeProvider>
+          <Header toggleTheme={toggleTheme} themeMode={themeMode} />
+          <Nav />
+          <About />
+          <Experience />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </ThemeProvider>
+      </MuiThemeProvider>
+    </StyledEngineProvider>
   );
 }
 

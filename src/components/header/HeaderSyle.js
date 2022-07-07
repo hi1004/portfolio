@@ -49,19 +49,6 @@ export const TextContainer = styled.div`
   gap: 0.5rem;
 `;
 
-export const ScrollDown = styled.a`
-  position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
-
-  ${props => props.theme.device.tablet} {
-    display: none;
-  }
-`;
-
 export const ToggleButton = styled(Button)`
   && {
     position: absolute;

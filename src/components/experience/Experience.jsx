@@ -1,7 +1,8 @@
 import React from 'react';
+import { ExperienceSection } from './ExperienceStyle';
 
 const Experience = () => {
-  return <div />;
+  return <ExperienceSection id="experience">experience</ExperienceSection>;
 };
 
 export default Experience;

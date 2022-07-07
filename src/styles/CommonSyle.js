@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: ${props => props.theme.containerWidthSize.lg};
+  position: relative;
   margin: 0 auto;
 
   ${props => props.theme.device.desktop} {

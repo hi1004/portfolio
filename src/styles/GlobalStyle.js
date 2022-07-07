@@ -1,10 +1,9 @@
 import { createGlobalStyle, css } from 'styled-components';
 import reset from 'styled-reset';
-import BgPttern from '../assets/images/test.jpg';
 
 const GlobalStyle = createGlobalStyle`
 
-  /* ${reset} */
+  ${reset}
   
   html {
     scroll-behavior: smooth;
@@ -48,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
 
   section {
     margin-top: 8rem;
+    height: 100vh;
     h2, h5 {
       text-align: center;
       color: ${props => props.theme.colors.light};

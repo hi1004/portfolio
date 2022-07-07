@@ -10,7 +10,6 @@ import {
   ImageContainer,
   Logo,
   Logos,
-  ScrollDown,
   StyledHeader,
   TextContainer,
   ToggleButton,
@@ -53,8 +52,6 @@ const Header = ({ toggleTheme, themeMode }) => {
         <ImageContainer>
           <Image src={ME} alt="me" />
         </ImageContainer>
-
-        <ScrollDown href="#contact">Scroll down</ScrollDown>
       </HeaderContainer>
     </StyledHeader>
   );
