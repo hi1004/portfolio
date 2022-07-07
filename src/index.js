@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import { lightTheme, darkTheme } from './styles/theme';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

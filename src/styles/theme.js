@@ -4,12 +4,13 @@ const colors = {
 };
 const lightThemeColors = {
   ...colors,
-  bg: '#F9F7F7',
+  bg: '#fff',
   bgVariant: '#112D4E',
   primary: '#3F72AF',
   primaryVariant: 'rgba(63, 114, 175, 0.4)',
   light: 'rgba(0,0,0,0.6)',
   text: '#202124',
+  bgImg: `url(/images/white_pattern.png)`,
 };
 const darkThemeColors = {
   ...colors,
@@ -19,10 +20,11 @@ const darkThemeColors = {
   primaryVariant: 'rgba(77, 181,255,0.4)',
   light: 'rgba(255,255,255,0.6)',
   text: '#fff',
+  bgImg: `url(/images/dark_pattern.png)`,
 };
 const size = {
   mobile: '425px',
-  tablet: '768px',
+  tablet: '600px',
   desktop: '1024PX',
 };
 
