@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TextLight = styled.h5`
+export const TextLight = styled.h6`
   color: ${props => props.theme.colors.light};
 `;
 

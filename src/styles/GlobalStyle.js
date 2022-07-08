@@ -50,13 +50,16 @@ const GlobalStyle = createGlobalStyle`
   h4 {
     font-size: 1rem;
   }
-  h5 {
+  h5, h6 {
     font-size: 0.83rem;
   }
 
   section {
-    /* margin-top: 8rem; */
-    height: 100vh;
+    padding-top: 8rem;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h2, h5 {
       text-align: center;
       color: ${props => props.theme.colors.light};

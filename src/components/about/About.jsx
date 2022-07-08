@@ -23,7 +23,7 @@ const About = () => {
   return (
     <AboutSection id="about">
       <h5>Get To Know</h5>
-      <h2 ref={myRef}>About Me</h2>
+      <h2>About Me</h2>
       <AboutContainer>
         <AboutMe className={active ? 'active' : ''}>
           <AboutImg>
@@ -31,7 +31,7 @@ const About = () => {
           </AboutImg>
         </AboutMe>
 
-        <AboutContent>
+        <AboutContent ref={myRef}>
           <AboutCards>
             <AboutCard className={active ? 'active' : ''}>
               <AboutIconBox>

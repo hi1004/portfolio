@@ -7,6 +7,7 @@ export const AboutSection = styled.section`
   flex-direction: column;
   justify-content: center;
 `;
+
 export const AboutContainer = styled(Container)`
   display: grid;
   grid-template-columns: 35% 50%;
@@ -39,11 +40,17 @@ export const AboutMe = styled.div`
   ${props => props.theme.device.desktop} {
     width: 50%;
     margin: 2rem auto 4rem;
+    &.active {
+      width: 70%;
+    }
   }
 
   ${props => props.theme.device.tablet} {
     width: 65%;
     margin: 0 auto 3rem;
+    &.active {
+      width: 90%;
+    }
   }
 `;
 
