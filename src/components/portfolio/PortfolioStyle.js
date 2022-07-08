@@ -39,6 +39,15 @@ export const Item = styled.article`
   }
 `;
 
+export const TAG = styled.span`
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 3rem;
+  color: #fff;
+  background-color: ${({ tag }) => (tag === 'TEAM' ? '#fc6c9c' : '#e6913c')};
+`;
+
 export const ItemCTA = styled.div`
   display: flex;
   gap: 1rem;
@@ -48,6 +57,7 @@ export const ItemCTA = styled.div`
 export const Image = styled.img`
   border-radius: 1.5rem;
   overflow: hidden;
+  margin: 1rem 0;
 `;
 export const GitHubButton = styled(Button)``;
 export const DemoButton = styled(Button)``;
