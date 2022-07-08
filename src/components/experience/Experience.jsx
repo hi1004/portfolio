@@ -61,7 +61,7 @@ const Experience = () => {
                 <CheckCircleIcon />
               </IconBox>
               <Text>
-                <h4>VUE</h4>
+                <h4>Vue</h4>
                 <TextLight>Experienced</TextLight>
               </Text>
             </Details>

@@ -6,7 +6,6 @@ export const ExperienceSection = styled.section``;
 export const ExperienceContainer = styled(Container)`
   display: grid;
   grid-template-columns: 1fr;
-  width: 60%;
   gap: 2rem;
 
   ${props => props.theme.device.tablet} {

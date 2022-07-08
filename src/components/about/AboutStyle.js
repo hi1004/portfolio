@@ -4,8 +4,13 @@ import { Container } from '../../styles/CommonSyle';
 
 export const AboutSection = styled.section`
   display: flex;
+
   flex-direction: column;
   justify-content: center;
+
+  ${props => props.theme.device.tablet} {
+    height: auto;
+  }
 `;
 
 export const AboutContainer = styled(Container)`

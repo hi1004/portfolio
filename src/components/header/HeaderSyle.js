@@ -26,9 +26,8 @@ export const FixedHeader = styled.header`
   backdrop-filter: blur(10px);
 `;
 
-export const FixedContainer = styled.div`
-  width: 90%;
-  height: 100%;
+export const FixedContainer = styled(Container)`
+  height: 90px;
   position: absolute;
   top: 0;
   left: 50%;
