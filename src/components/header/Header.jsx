@@ -8,6 +8,8 @@ import {
   Image,
   HeaderContainer,
   ImageContainer,
+  FixedHeader,
+  FixedContainer,
   Logo,
   Logos,
   StyledHeader,
@@ -17,22 +19,26 @@ import {
 
 const Header = ({ toggleTheme, themeMode }) => {
   return (
-    <StyledHeader>
+    <StyledHeader id="home">
       <HeaderContainer>
-        <Logos href="#">
-          {themeMode === 'light' ? (
-            <Logo src="/images/white_logo.png" />
-          ) : (
-            <Logo src="/images/dark_logo.png" />
-          )}
-        </Logos>
-        <ToggleButton onClick={toggleTheme} variant="outlined">
-          {themeMode === 'light' ? (
-            <DarkModeOutlinedIcon />
-          ) : (
-            <LightModeOutlinedIcon />
-          )}
-        </ToggleButton>
+        <FixedHeader>
+          <FixedContainer>
+            <Logos href="#">
+              {themeMode === 'light' ? (
+                <Logo src="/images/white_logo.png" />
+              ) : (
+                <Logo src="/images/dark_logo.png" />
+              )}
+            </Logos>
+            <ToggleButton onClick={toggleTheme} variant="outlined">
+              {themeMode === 'light' ? (
+                <DarkModeOutlinedIcon />
+              ) : (
+                <LightModeOutlinedIcon />
+              )}
+            </ToggleButton>
+          </FixedContainer>
+        </FixedHeader>
 
         <TextContainer>
           <h3>Hello I'm</h3>

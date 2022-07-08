@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Tooltip from '@mui/material/Tooltip';
+import { Link } from 'react-scroll';
 
 const ToBeStyledTooltip = ({ className, ...props }) => (
   <Tooltip {...props} classes={{ tooltip: className }} />
@@ -25,13 +26,14 @@ export const NavTooltip = styled(ToBeStyledTooltip)`
   font-size: 1rem;
 `;
 
-export const IconBox = styled.a`
+export const IconBox = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
   border-radius: 50%;
   font-size: 1.1rem;
+  cursor: pointer;
   padding: 0.9rem;
   color: ${props => props.theme.colors.primary};
 

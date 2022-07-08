@@ -5,7 +5,7 @@ const colors = {
 const lightThemeColors = {
   ...colors,
   bg: '#fff',
-  bgVariant: '#112D4E',
+  bgVariant: '#a5f4ff',
   primary: '#0074ff',
   primaryVariant: 'rgba(63, 114, 175, 0.4)',
   navLight: 'rgba(0, 115, 255, 0.1)',

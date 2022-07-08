@@ -47,6 +47,7 @@ function App() {
           <Header toggleTheme={toggleTheme} themeMode={themeMode} />
           <Nav />
           <About />
+
           <Experience />
           <Portfolio />
           <Contact />

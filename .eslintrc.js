@@ -89,7 +89,7 @@ module.exports = {
     'no-nested-ternary': 'warn',
     eqeqeq: 'warn',
     'jsx-a11y/anchor-is-valid': [
-      1,
+      0,
       {
         components: ['Link'],
         specialLink: ['hrefLeft', 'hrefRight'],

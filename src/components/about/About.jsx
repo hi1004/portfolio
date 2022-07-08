@@ -1,6 +1,7 @@
 import React from 'react';
 import MilitaryTechOutlinedIcon from '@mui/icons-material/MilitaryTechOutlined';
 import FolderCopyOutlinedIcon from '@mui/icons-material/FolderCopyOutlined';
+import { useInView } from 'react-intersection-observer';
 import {
   AboutSection,
   AboutContainer,
@@ -17,12 +18,14 @@ import {
 import ME from '../../assets/images/about_me.jpg';
 
 const About = () => {
+  const { ref: myRef, inView: active } = useInView();
+
   return (
     <AboutSection id="about">
       <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h2 ref={myRef}>About Me</h2>
       <AboutContainer>
-        <AboutMe>
+        <AboutMe className={active ? 'active' : ''}>
           <AboutImg>
             <Img src={ME} alt="About Image" />
           </AboutImg>
@@ -30,7 +33,15 @@ const About = () => {
 
         <AboutContent>
           <AboutCards>
-            <AboutCard>
+            <AboutCard className={active ? 'active' : ''}>
+              <AboutIconBox>
+                <MilitaryTechOutlinedIcon />
+              </AboutIconBox>
+              <h5>Experience </h5>
+              <small>3+ Years Working</small>
+            </AboutCard>
+
+            <AboutCard className={active ? 'active' : ''}>
               <AboutIconBox>
                 <MilitaryTechOutlinedIcon />
               </AboutIconBox>
@@ -38,15 +49,7 @@ const About = () => {
               <small>3+ Years Working</small>
             </AboutCard>
 
-            <AboutCard>
-              <AboutIconBox>
-                <MilitaryTechOutlinedIcon />
-              </AboutIconBox>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </AboutCard>
-
-            <AboutCard>
+            <AboutCard className={active ? 'active' : ''}>
               <AboutIconBox>
                 <FolderCopyOutlinedIcon />
               </AboutIconBox>
@@ -61,7 +64,14 @@ const About = () => {
             provident! Recusandae amet ad debitis ipsam illo.
           </Text>
 
-          <AboutButton variant="contained" color="primary">
+          <AboutButton
+            variant="contained"
+            color="primary"
+            size="large"
+            onClick={() => {
+              window.location.href = '#contact';
+            }}
+          >
             Let's Talk
           </AboutButton>
         </AboutContent>

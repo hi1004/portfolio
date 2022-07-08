@@ -4,26 +4,49 @@ import { Container } from '../../styles/CommonSyle';
 
 /* HEADER */
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.div`
   height: 100vh;
-  padding-top: 7rem;
   overflow: hidden;
 `;
+
 export const HeaderContainer = styled(Container)`
   height: 100%;
+  padding-top: 7rem;
   position: relative;
 `;
+
+export const FixedHeader = styled.header`
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: ${props => props.theme.colors.navLight};
+  backdrop-filter: blur(10px);
+`;
+
+export const FixedContainer = styled.div`
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export const Logos = styled.a`
   max-width: 80px;
-  position: absolute;
-  left: 0;
-  top: -5rem;
 `;
 
 export const Logo = styled.img`
   width: 100%;
 `;
 
+export const ToggleButton = styled(Button)``;
 export const ImageContainer = styled.div`
   background: linear-gradient(
     ${props => props.theme.colors.primary},
@@ -48,13 +71,6 @@ export const TextContainer = styled.div`
   text-align: center;
   gap: 0.5rem;
 `;
-
-export const ToggleButton = styled(Button)`
-  position: absolute;
-  top: -5rem;
-  right: 0;
-`;
-
 /* HEADER SOCIAL */
 
 export const HeaderSocialsContainer = styled.div`

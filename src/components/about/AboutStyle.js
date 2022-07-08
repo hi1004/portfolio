@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import { Button } from '@mui/material';
 import { Container } from '../../styles/CommonSyle';
 
-export const AboutSection = styled.section``;
+export const AboutSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 export const AboutContainer = styled(Container)`
   display: grid;
   grid-template-columns: 35% 50%;
@@ -14,9 +18,11 @@ export const AboutContainer = styled(Container)`
   }
 `;
 export const AboutMe = styled.div`
-  width: 100%;
+  width: 50%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
+  transition: 1s;
+
   background: linear-gradient(
     45deg,
     transparent,
@@ -25,6 +31,10 @@ export const AboutMe = styled.div`
   );
   display: grid;
   place-items: center;
+
+  &.active {
+    width: 100%;
+  }
 
   ${props => props.theme.device.desktop} {
     width: 50%;
@@ -51,6 +61,10 @@ export const AboutImg = styled.div`
 export const Img = styled.img``;
 
 export const AboutContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   p {
     margin: 2rem 0 2.6rem;
     color: ${props => props.theme.colors.light};
@@ -86,7 +100,16 @@ export const AboutCard = styled.article`
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transform: translateY(100px);
+  visibility: hidden;
+  opacity: 0;
   transition: var(--transition);
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
 
   &:hover {
     background-color: transparent;
@@ -96,8 +119,9 @@ export const AboutCard = styled.article`
 
   h5 {
     font-size: 0.95rem;
-    color: #fff;
+    color: ${props => props.theme.colors.light};
   }
+
   small {
     font-size: 0.7rem;
     color: ${props => props.theme.colors.light};
@@ -110,4 +134,6 @@ export const AboutIconBox = styled.div`
   margin-bottom: 1rem;
 `;
 export const Text = styled.p``;
-export const AboutButton = styled(Button)``;
+export const AboutButton = styled(Button)`
+  max-width: 150px;
+`;

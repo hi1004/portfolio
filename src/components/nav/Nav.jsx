@@ -1,82 +1,55 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+
 import {
   NavContainer,
-  IconBox,
+  IconBox as Link,
   NavTooltip,
   ScrollDownButton,
 } from './NavStyle';
 import { Container } from '../../styles/CommonSyle';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#');
-
   return (
     <>
       <NavContainer>
-        <NavTooltip arrow title="Home" placement="top-start">
-          <IconBox
-            href="#"
-            onClick={() => setActiveNav('#')}
-            className={activeNav === '#' ? 'active' : ''}
-          >
+        <Link to="home" spy>
+          <NavTooltip arrow title="Home" placement="top-start">
             <HomeOutlinedIcon />
-          </IconBox>
-        </NavTooltip>
+          </NavTooltip>
+        </Link>
 
-        <NavTooltip arrow title="About" placement="top-start">
-          <IconBox
-            href="#about"
-            onClick={() => setActiveNav('#about')}
-            className={activeNav === '#about' ? 'active' : ''}
-          >
+        <Link to="about" spy>
+          <NavTooltip arrow title="About" placement="top-start">
             <PersonOutlineOutlinedIcon />
-          </IconBox>
-        </NavTooltip>
+          </NavTooltip>
+        </Link>
 
-        <NavTooltip arrow title="Experience" placement="top-start">
-          <IconBox
-            href="#experience"
-            onClick={() => setActiveNav('#experience')}
-            className={activeNav === '#experience' ? 'active' : ''}
-          >
+        <Link to="experience" spy>
+          <NavTooltip arrow title="Experience" placement="top-start">
             <MenuBookOutlinedIcon />
-          </IconBox>
-        </NavTooltip>
+          </NavTooltip>
+        </Link>
 
-        <NavTooltip arrow title="Portfolio" placement="top-start">
-          <IconBox
-            href="#portfolio"
-            onClick={() => setActiveNav('#portfolio')}
-            className={activeNav === '#portfolio' ? 'active' : ''}
-          >
+        <Link to="portfolio" spy>
+          <NavTooltip arrow title="Portfolio" placement="top-start">
             <WorkOutlineOutlinedIcon />
-          </IconBox>
-        </NavTooltip>
+          </NavTooltip>
+        </Link>
 
-        <NavTooltip arrow title="Contact" placement="top-start">
-          <IconBox
-            href="#contact"
-            onClick={() => setActiveNav('#contact')}
-            className={activeNav === '#contact' ? 'active' : ''}
-          >
+        <Link to="contact" spy>
+          <NavTooltip arrow title="Contact" placement="top-start">
             <MailOutlinedIcon />
-          </IconBox>
-        </NavTooltip>
+          </NavTooltip>
+        </Link>
       </NavContainer>
 
       <Container>
-        <ScrollDownButton
-          href="#contact"
-          onClick={() => setActiveNav('#contact')}
-          className={activeNav === '#contact' ? 'active' : ''}
-        >
-          Scroll down
-        </ScrollDownButton>
+        <ScrollDownButton href="#contact">Scroll down</ScrollDownButton>
       </Container>
     </>
   );
