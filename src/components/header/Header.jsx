@@ -46,8 +46,7 @@ const Header = ({ toggleTheme, themeMode }) => {
           <TextLight>Web Frontend Developer</TextLight>
           <h3>
             人々が<PrimaryText>必要とするサービスを、</PrimaryText> <br />
-            人々と<PrimaryText>一緒に作る時に幸せを感じる</PrimaryText>
-            開発者です。
+            仲間と<PrimaryText>一緒に作る時に幸せを感じます。</PrimaryText>
           </h3>
         </TextContainer>
 
