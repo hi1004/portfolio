@@ -35,7 +35,33 @@ export const Item = styled.article`
   }
 
   h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: ${props => props.theme.colors.light};
+    margin: 1rem 0;
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 20vw;
+  }
+
+  ${props => props.theme.device.desktop} {
+    h3 {
+      font-size: 1.4rem;
+    }
+    p {
+      width: 35vw;
+    }
+  }
+
+  ${props => props.theme.device.tablet} {
+    p {
+      width: 76vw;
+    }
   }
 `;
 
