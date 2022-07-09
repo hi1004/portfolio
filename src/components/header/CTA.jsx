@@ -6,7 +6,7 @@ const CV = '';
 const CTA = () => {
   return (
     <CtaContainer>
-      <DownloadCV href={CV} download variant="outlined">
+      <DownloadCV href={CV} download variant="outlined" size="large">
         Download CV
       </DownloadCV>
       <TalkButton

@@ -15,7 +15,11 @@ export const Container = styled.div`
 `;
 
 export const TextLight = styled.h6`
+  font-size: 1.5rem;
   color: ${props => props.theme.colors.light};
+  ${props => props.theme.device.desktop} {
+    font-size: 0.83rem;
+  }
 `;
 
 export const PrimaryText = styled.span`

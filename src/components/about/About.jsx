@@ -25,7 +25,7 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <AboutContainer>
-        <AboutMe className={active ? 'active' : ''}>
+        <AboutMe>
           <AboutImg>
             <Img src={ME} alt="About Image" />
           </AboutImg>

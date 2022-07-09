@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { Container } from '../../styles/CommonSyle';
+import { Container, TextLight } from '../../styles/CommonSyle';
 
-export const ExperienceSection = styled.section``;
+export const ExperienceSection = styled.section`
+  height: calc(100vh - 90px);
+`;
 
 export const ExperienceContainer = styled(Container)`
   display: grid;
@@ -24,6 +26,7 @@ export const FrontEnd = styled.div`
   > h3 {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 1.4rem;
     color: ${props => props.theme.colors.primary};
   }
 
@@ -45,15 +48,25 @@ export const FrontEnd = styled.div`
 
 export const Content = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 2rem;
+  place-items: center;
+  ${props => props.theme.device.desktop} {
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  ${props => props.theme.device.tablet} {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Details = styled.article`
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
+  width: 50%;
 `;
 
 export const IconBox = styled.div`
@@ -61,4 +74,15 @@ export const IconBox = styled.div`
   color: ${props => props.theme.colors.primary};
 `;
 
-export const Text = styled.div``;
+export const Text = styled.div`
+  h4 {
+    font-size: 2rem;
+    ${props => props.theme.device.desktop} {
+      font-size: 1.5rem;
+    }
+  }
+`;
+
+export const styledTextLight = styled(TextLight)`
+  font-size: 1rem;
+`;

@@ -48,9 +48,8 @@ const Header = ({ toggleTheme, themeMode }) => {
             人々が<PrimaryText>必要とするサービスを、</PrimaryText> <br />
             仲間と<PrimaryText>一緒に作る時に幸せを感じます。</PrimaryText>
           </h3>
+          <CTA />
         </TextContainer>
-
-        <CTA />
 
         <HeaderSocials />
 

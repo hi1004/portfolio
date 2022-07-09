@@ -47,16 +47,16 @@ const GlobalStyle = createGlobalStyle`
   h3 {
     font-size: 1.17em;
   }
-  h4 {
-    font-size: 1rem;
+  h5 {
+    font-size: 1.5rem;
   }
-  h5, h6 {
+  h6 {
     font-size: 0.83rem;
   }
 
   section {
     padding-top: 8rem;
-    height: calc(100vh - 90px);
+    /* height: calc(100vh - 90px); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +67,7 @@ const GlobalStyle = createGlobalStyle`
     h2 {
       color: ${props => props.theme.colors.primary};
       margin-bottom: 3rem;
+      font-size: 4rem;
     }
 
     ${props => props.theme.device.desktop} {
@@ -76,6 +77,7 @@ const GlobalStyle = createGlobalStyle`
     ${props => props.theme.device.tablet} {
       h2 {
         margin-bottom: 2rem;
+        font-size: 3rem;
       }
     }
   }

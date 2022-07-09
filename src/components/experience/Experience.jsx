@@ -1,6 +1,6 @@
 import React from 'react';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import { TextLight } from '../../styles/CommonSyle';
+
 import {
   ExperienceSection,
   ExperienceContainer,
@@ -8,6 +8,7 @@ import {
   Content,
   Details,
   IconBox,
+  styledTextLight as TextLight,
   Text,
 } from './ExperienceStyle';
 
@@ -70,7 +71,7 @@ const Experience = () => {
                 <CheckCircleIcon />
               </IconBox>
               <Text>
-                <h4>Node JS</h4>
+                <h4>Node</h4>
                 <TextLight>Experienced</TextLight>
               </Text>
             </Details>

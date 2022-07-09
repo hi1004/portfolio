@@ -46,6 +46,51 @@ export const Logo = styled.img`
 `;
 
 export const ToggleButton = styled(Button)``;
+
+/* TEXT CONTAINER */
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  line-height: 1.4;
+  h3 {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+
+  ${props => props.theme.device.desktop} {
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    h3 {
+      font-size: 1.17em;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+`;
+
+/* CTA */
+export const CtaContainer = styled.div`
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+
+  ${props => props.theme.device.desktop} {
+    justify-content: center;
+  }
+`;
+
+export const DownloadCV = styled(Button)``;
+
+export const TalkButton = styled(Button)``;
+
+/* IMAGE CONTAINER */
 export const ImageContainer = styled.div`
   background: linear-gradient(
     ${props => props.theme.colors.primary},
@@ -54,22 +99,26 @@ export const ImageContainer = styled.div`
   width: 22rem;
   height: 30rem;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 50px;
+  bottom: 0;
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+
+  @media screen and (max-width: 1440px) {
+    display: none;
+  }
+
+  ${props => props.theme.device.desktop} {
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+  }
 `;
 
 export const Image = styled.img``;
 
-export const TextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 0.5rem;
-`;
 /* HEADER SOCIAL */
 
 export const HeaderSocialsContainer = styled.div`
@@ -94,16 +143,3 @@ export const HeaderSocialsContainer = styled.div`
 `;
 
 export const IconBox = styled.a``;
-
-/* CTA */
-
-export const CtaContainer = styled.div`
-  margin-top: 2.5rem;
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;
-`;
-
-export const DownloadCV = styled(Button)``;
-
-export const TalkButton = styled(Button)``;

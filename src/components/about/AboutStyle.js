@@ -24,7 +24,7 @@ export const AboutContainer = styled(Container)`
   }
 `;
 export const AboutMe = styled.div`
-  width: 50%;
+  width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   transition: 1s;
@@ -37,10 +37,6 @@ export const AboutMe = styled.div`
   );
   display: grid;
   place-items: center;
-
-  &.active {
-    width: 100%;
-  }
 
   ${props => props.theme.device.desktop} {
     width: 50%;
