@@ -6,7 +6,6 @@ import { Container } from '../../styles/CommonSyle';
 
 export const StyledHeader = styled.div`
   height: 100vh;
-  overflow: hidden;
 `;
 
 export const HeaderContainer = styled(Container)`
@@ -114,6 +113,10 @@ export const ImageContainer = styled.div`
     display: block;
     left: 50%;
     transform: translate(-50%);
+  }
+
+  ${props => props.theme.device.tablet} {
+    bottom: unset;
   }
 `;
 

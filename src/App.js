@@ -51,7 +51,7 @@ function App() {
           <Experience />
           <Portfolio />
           <Contact />
-          <Footer />
+          <Footer themeMode={themeMode} />
         </ThemeProvider>
       </MuiThemeProvider>
     </StyledEngineProvider>
