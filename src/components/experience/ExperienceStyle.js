@@ -3,6 +3,10 @@ import { Container, TextLight } from '../../styles/CommonSyle';
 
 export const ExperienceSection = styled.section`
   height: calc(100vh - 90px);
+
+  ${props => props.theme.device.desktop} {
+    height: auto;
+  }
 `;
 
 export const ExperienceContainer = styled(Container)`
