@@ -39,6 +39,11 @@ export const FixedContainer = styled(Container)`
 
 export const Logos = styled(Link)`
   max-width: 80px;
+  cursor: pointer;
+
+  ${props => props.theme.device.tablet} {
+    max-width: 50px;
+  }
 `;
 
 export const Logo = styled.img`

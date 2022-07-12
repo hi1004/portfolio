@@ -9,11 +9,17 @@ export const FooterSection = styled.footer`
   background-color: ${props => props.theme.colors.bgVariant};
 `;
 
-export const Logos = styled.div``;
-export const Logo = styled.img`
-  width: 80px;
+export const Logos = styled.div`
+  max-width: 80px;
   margin-bottom: 2rem;
   display: inline-block;
+
+  ${props => props.theme.device.tablet} {
+    max-width: 60px;
+  }
+`;
+export const Logo = styled.img`
+  width: 100%;
 `;
 export const Permalinks = styled.ul`
   display: flex;
