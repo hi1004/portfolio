@@ -75,7 +75,8 @@ export const AboutContent = styled.div`
   justify-content: center;
   p {
     margin: 2rem 0 2.6rem;
-    color: ${props => props.theme.colors.light};
+    color: ${props => props.theme.colors.text};
+    font-size: 1.2rem;
 
     ${props => props.theme.device.desktop} {
       margin: 1rem 0 1.5rem;
@@ -127,11 +128,11 @@ export const AboutCard = styled.article`
 
   h5 {
     font-size: 0.95rem;
-    color: ${props => props.theme.colors.light};
+    color: ${props => props.theme.colors.text};
   }
 
   small {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: ${props => props.theme.colors.light};
   }
 `;

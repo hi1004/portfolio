@@ -103,7 +103,7 @@ export const ImageContainer = styled.div`
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding-top: 2rem;
 
   @media screen and (max-width: 1440px) {
     display: none;

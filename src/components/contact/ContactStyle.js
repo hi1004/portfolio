@@ -88,4 +88,7 @@ export const MessageInput = styled(TextField)`
 
 export const SubmitButton = styled(Button)`
   width: max-content;
+  ${props => props.theme.device.tablet} {
+    margin: 0 auto;
+  }
 `;

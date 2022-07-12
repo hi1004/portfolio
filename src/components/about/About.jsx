@@ -38,7 +38,7 @@ const About = () => {
                 <MilitaryTechOutlinedIcon />
               </AboutIconBox>
               <h5>Experience </h5>
-              <small>3+ Years Working</small>
+              <small>3+ Years Experience</small>
             </AboutCard>
 
             <AboutCard className={active ? 'active' : ''}>
@@ -54,7 +54,7 @@ const About = () => {
                 <FolderCopyOutlinedIcon />
               </AboutIconBox>
               <h5>Projects</h5>
-              <small>3+ Years Working</small>
+              <small>10+ Completed</small>
             </AboutCard>
           </AboutCards>
           <Text>

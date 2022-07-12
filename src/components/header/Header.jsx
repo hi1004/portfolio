@@ -43,6 +43,7 @@ const Header = ({ toggleTheme, themeMode }) => {
         <TextContainer>
           <h3>Hello I'm</h3>
           <h1>Oh ByeongHeon</h1>
+
           <TextLight>Web Frontend Developer</TextLight>
           <h3>
             人々が<PrimaryText>必要とするサービスを、</PrimaryText> <br />
