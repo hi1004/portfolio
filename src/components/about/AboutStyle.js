@@ -4,7 +4,6 @@ import { Container } from '../../styles/CommonSyle';
 
 export const AboutSection = styled.section`
   display: flex;
-
   flex-direction: column;
   justify-content: center;
 
@@ -73,28 +72,38 @@ export const AboutContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  p {
-    margin: 2rem 0 2.6rem;
-    color: ${props => props.theme.colors.text};
-    font-size: 1.2rem;
-
-    ${props => props.theme.device.desktop} {
-      margin: 1rem 0 1.5rem;
-    }
-
-    ${props => props.theme.device.tablet} {
-      margin: 1.5rem 0;
-    }
-  }
 
   ${props => props.theme.device.tablet} {
     text-align: center;
   }
 `;
 
+export const Text = styled.div`
+  margin: 2rem 0 2.6rem;
+  color: ${props => props.theme.colors.text};
+  font-size: 1.2rem;
+
+  ${props => props.theme.device.desktop} {
+    margin: 1rem 0 1.5rem;
+  }
+
+  ${props => props.theme.device.tablet} {
+    margin: 1.5rem 0;
+  }
+  span {
+    color: ${props => props.theme.colors.primary};
+  }
+  strong {
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+`;
+
 export const AboutCards = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 
   ${props => props.theme.device.tablet} {
@@ -142,7 +151,70 @@ export const AboutIconBox = styled.div`
   font-size: 1.4rem;
   margin-bottom: 1rem;
 `;
-export const Text = styled.p``;
+
 export const AboutButton = styled(Button)`
   max-width: 150px;
+`;
+
+/* AboutDetails */
+export const Details = styled.section``;
+export const AboutDetailsContainer = styled(Container)`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+
+  ${props => props.theme.device.desktop} {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  ${props => props.theme.device.tablet} {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+`;
+export const Detail = styled.article`
+  background-color: ${props => props.theme.colors.bgVariant};
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid ${props => props.theme.colors.primary};
+  height: fit-content;
+  transition: var(--transition);
+
+  &:hover {
+    background-color: transparent;
+    border-color: ${props => props.theme.colors.primaryVariant};
+    color: default;
+  }
+
+  ${props => props.theme.device.desktop} {
+    height: auto;
+  }
+`;
+export const DetailHead = styled.div`
+  background-color: ${props => props.theme.colors.primary};
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: ${props => props.theme.colors.bg};
+    font-size: 1.5rem;
+    text-align: center;
+  }
+`;
+export const DetailList = styled.ul`
+  padding: 2rem;
+`;
+export const List = styled.li`
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+
+  p {
+    font-size: 1.1rem;
+  }
+`;
+export const IconBox = styled.div`
+  color: ${props => props.theme.colors.primary};
+  margin-top: 2px;
 `;

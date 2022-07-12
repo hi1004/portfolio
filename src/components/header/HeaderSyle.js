@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Button } from '@mui/material';
+import { Link } from 'react-scroll';
 import { Container } from '../../styles/CommonSyle';
 
 /* HEADER */
@@ -36,7 +37,7 @@ export const FixedContainer = styled(Container)`
   justify-content: space-between;
 `;
 
-export const Logos = styled.a`
+export const Logos = styled(Link)`
   max-width: 80px;
 `;
 

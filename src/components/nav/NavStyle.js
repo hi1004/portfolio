@@ -49,7 +49,7 @@ export const IconBox = styled(Link)`
 
 /* SCROLL DOWN */
 
-export const ScrollDownButton = styled.a`
+export const ScrollDownButton = styled(Link)`
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;

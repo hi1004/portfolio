@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import { CtaContainer, DownloadCV, TalkButton } from './HeaderSyle';
 
@@ -9,14 +10,11 @@ const CTA = () => {
       <DownloadCV href={CV} download variant="outlined" size="large">
         Download CV
       </DownloadCV>
-      <TalkButton
-        onClick={() => {
-          window.location.href = '#contact';
-        }}
-        variant="contained"
-      >
-        Let's Talk
-      </TalkButton>
+      <Link to="contact" spy>
+        <TalkButton variant="contained" size="large">
+          Let's Talk
+        </TalkButton>
+      </Link>
     </CtaContainer>
   );
 };

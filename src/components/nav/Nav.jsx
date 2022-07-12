@@ -49,7 +49,9 @@ const Nav = () => {
       </NavContainer>
 
       <Container>
-        <ScrollDownButton href="#contact">Scroll down</ScrollDownButton>
+        <ScrollDownButton to="contact" spy>
+          Scroll down
+        </ScrollDownButton>
       </Container>
     </>
   );

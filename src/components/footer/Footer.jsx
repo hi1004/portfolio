@@ -6,7 +6,7 @@ import {
   Copyright,
   FooterSection,
   IconBox,
-  Item,
+  Item as Link,
   List,
   Logo,
   Logos,
@@ -15,11 +15,11 @@ import {
 } from './FooterStyle';
 
 const PermalinkData = [
-  { id: 1, link: '#', title: 'Home' },
-  { id: 2, link: '#about', title: 'About' },
-  { id: 3, link: '#experience', title: 'Experience' },
-  { id: 4, link: '#portfolio', title: 'Portfolio' },
-  { id: 5, link: '#contact', title: 'Contact' },
+  { id: 1, link: 'home', title: 'Home' },
+  { id: 2, link: 'about', title: 'About' },
+  { id: 3, link: 'experience', title: 'Experience' },
+  { id: 4, link: 'portfolio', title: 'Portfolio' },
+  { id: 5, link: 'contact', title: 'Contact' },
 ];
 
 const Footer = ({ themeMode }) => {
@@ -36,7 +36,7 @@ const Footer = ({ themeMode }) => {
         {PermalinkData.map(({ id, link, title }) => {
           return (
             <List key={id}>
-              <Item href={link}> {title}</Item>
+              <Link to={link}> {title}</Link>
             </List>
           );
         })}

@@ -1,7 +1,8 @@
+import { Link } from 'react-scroll';
 import styled from 'styled-components';
 
 export const FooterSection = styled.footer`
-  margin-top: 7rem;
+  margin-top: 10rem;
   font-size: 0.9rem;
   text-align: center;
   padding: 3rem 0;
@@ -29,7 +30,9 @@ export const Permalinks = styled.ul`
 
 export const List = styled.li``;
 
-export const Item = styled.a``;
+export const Item = styled(Link)`
+  cursor: pointer;
+`;
 
 export const Socials = styled.div`
   display: flex;

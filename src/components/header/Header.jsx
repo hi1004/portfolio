@@ -23,7 +23,7 @@ const Header = ({ toggleTheme, themeMode }) => {
       <HeaderContainer>
         <FixedHeader>
           <FixedContainer>
-            <Logos href="#">
+            <Logos to="home">
               {themeMode === 'light' ? (
                 <Logo src="/images/white_logo.png" />
               ) : (
