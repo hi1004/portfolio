@@ -99,6 +99,10 @@ export const Text = styled.div`
   p {
     margin-bottom: 1rem;
   }
+
+  ${props => props.theme.device.tablet} {
+    font-size: 1rem;
+  }
 `;
 
 export const AboutCards = styled.div`
@@ -200,6 +204,10 @@ export const DetailHead = styled.div`
     color: ${props => props.theme.colors.bg};
     font-size: 1.5rem;
     text-align: center;
+
+    ${props => props.theme.device.desktop} {
+      font-size: 1.3rem;
+    }
   }
 `;
 export const DetailList = styled.ul`
@@ -212,6 +220,9 @@ export const List = styled.li`
 
   p {
     font-size: 1.1rem;
+    ${props => props.theme.device.desktop} {
+      font-size: 1rem;
+    }
   }
 `;
 export const IconBox = styled.div`
