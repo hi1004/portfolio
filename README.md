@@ -1,5 +1,13 @@
 # Oh ByeongHeon(オ・ビョンホン)
-- website : <a href="https://portfolio-one-eta-96.vercel.app/" target="_blank">DEMO</a>
 
-> 人々が必要とするサービスを、
-仲間と一緒に作る時に幸せを感じます。
+- Portfolio Website : <a href="https://bit.ly/3uIyuw6" target="_blank">DEMO Link</a>
+
+## Introduce.
+
+> 人々が必要とするサービスを、 仲間と一緒に作る時に幸せを感じます。
+
+HTML & CSS & JavaScript / React & Vue で <b style="color: rgb(0, 127, 255)">2 年以上の開発経験</b>があります。そして、フロントエンドエンジニアとして、これからも徐々に成長していく開発者になりたいです。
+
+<b style="color: rgb(0, 127, 255)">現在は大学の IT サークルの会長</b>としてチームプロジェクト活動や部員募集などの運営を行っています。 去年の部員募集は効率的にサークルの広報をするため、チームでサイトを作り上げた結果、10 人の部員を増やすことができました。
+
+個人がしたいことよりは、<b style="color: rgb(0, 127, 255)">会社(サークル)やチームに役立つこと</b>がしたかったので、WEB スタディーやプロジェクト発表会を開くなど<b style="color: rgb(0, 127, 255)">チームとして活躍できるよう</b>に愚直にサークルの運営をしてきました。
