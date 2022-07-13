@@ -8,7 +8,7 @@
 
 ## :pushpin: Introduce.
 
-HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の開発経験</b>があります。そして、フロントエンドエンジニアとして、これからも徐々に成長していく開発者になりたいです。
+HTML & CSS & JavaScript / React & Vueで <b style="color: red">2 年以上の開発経験</b>があります。そして、フロントエンドエンジニアとして、これからも徐々に成長していく開発者になりたいです。
 
 <b style="color: red">現在は大学の IT サークルの会長</b>としてチームプロジェクト活動や部員募集などの運営を行っています。 去年の部員募集は効率的にサークルの広報をするため、チームでサイトを作り上げた結果、10 人の部員を増やすことができました。
 
@@ -138,4 +138,4 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ## :pushpin: Education.
 
-2013.03-2022.02 釜山外国語大学 日本語創意融合学部
+2016.03-2022.02 釜山外国語大学 日本語創意融合学部
