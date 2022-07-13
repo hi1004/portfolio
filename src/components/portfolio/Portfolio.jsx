@@ -61,7 +61,7 @@ const dummyData = [
     id: 5,
     title: 'YULP',
     tag: 'TOY',
-    dec: 'YULPリリニューアルサイト',
+    dec: 'YULPリニューアルサイト',
     src: IMG5,
     github: 'https://bit.ly/3c4IkCg',
     demo: 'https://bit.ly/3PdYaIR',
