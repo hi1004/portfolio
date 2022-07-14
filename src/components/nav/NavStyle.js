@@ -56,6 +56,7 @@ export const ScrollDownButton = styled(Link)`
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  cursor: pointer;
 
   ${props => props.theme.device.tablet} {
     display: none;
