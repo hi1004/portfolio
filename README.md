@@ -92,7 +92,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 > 開発期間: 2020 年 （約 3 週）
 >
 > 技術スタック:  
-> Jquery 3 / HTML / CSS / JavaScript / Slick / Fullpage
+> Jquery 3 / HTML / CSS / JavaScript / Swiper / Fullpage
 >
 > [プロジェクト詳細説明](https://bit.ly/3OYE31B) 参考
 
