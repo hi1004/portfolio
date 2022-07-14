@@ -74,6 +74,11 @@ export const TAG = styled.span`
   background-color: ${({ tag }) => (tag === 'TEAM' ? '#fc6c9c' : '#e6913c')};
 `;
 
+export const YearTAG = styled(TAG)`
+  background-color: ${({ tag }) =>
+    tag === '2022' ? '#ff4747' : tag === '2021' ? '#2e7eff' : '#ae6512'};
+`;
+
 export const ItemCTA = styled.div`
   display: flex;
   gap: 1rem;

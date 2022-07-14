@@ -1,11 +1,11 @@
 import React from 'react';
-import { TextLight } from '../../styles/CommonSyle';
 import {
   DemoButton,
   GitHubButton,
   Image,
   Item,
   TAG,
+  YearTAG,
   ItemCTA,
   PortfolioContainer,
   PortfolioSection,
@@ -26,6 +26,7 @@ const dummyData = [
     title: 'Food Search App',
     dec: 'OPEN APIを活用した食物アレルギー食品検索サービス',
     tag: 'TEAM',
+    year: '2022',
     src: IMG1,
     github: 'https://bit.ly/3uuERTG',
     demo: 'https://bit.ly/3ytDaqK',
@@ -34,6 +35,7 @@ const dummyData = [
     id: 2,
     title: 'Jbit United IT',
     tag: 'TEAM',
+    year: '2021',
     dec: '2021年、大学ITサークルの広報サイト',
     src: IMG2,
     github: 'https://bit.ly/3ysvpRP',
@@ -43,6 +45,7 @@ const dummyData = [
     id: 3,
     title: 'ICHIGOICHIE',
     tag: 'TEAM',
+    year: '2021',
     dec: '大学ITサークルの2グループホームページ',
     src: IMG3,
     github: 'https://bit.ly/3al3DPr',
@@ -52,6 +55,7 @@ const dummyData = [
     id: 4,
     title: 'Typing Game',
     tag: 'TEAM',
+    year: '2022',
     dec: '大学授業で二人で作ったタイピングゲーム',
     src: IMG4,
     github: 'https://bit.ly/3c1cpm3',
@@ -61,6 +65,7 @@ const dummyData = [
     id: 5,
     title: 'YULP',
     tag: 'TOY',
+    year: '2020',
     dec: 'YULPリニューアルサイト',
     src: IMG5,
     github: 'https://bit.ly/3c4IkCg',
@@ -70,6 +75,7 @@ const dummyData = [
     id: 6,
     title: 'Lotte',
     tag: 'TOY',
+    year: '2020',
     dec: 'Lotteリニューアルサイト',
     src: IMG6,
     github: 'https://bit.ly/3OYE31B',
@@ -79,6 +85,7 @@ const dummyData = [
     id: 7,
     title: 'MARUGAME',
     tag: 'TOY',
+    year: '2020',
     dec: 'MARUGAMEリニューアルサイト',
     src: IMG7,
     github: 'https://bit.ly/3PeOyxq',
@@ -88,6 +95,7 @@ const dummyData = [
     id: 8,
     title: 'KUMHO',
     tag: 'TOY',
+    year: '2020',
     dec: 'KUMHOリニューアルサイト',
     src: IMG8,
     github: 'https://bit.ly/3OVenmn',
@@ -97,6 +105,7 @@ const dummyData = [
     id: 9,
     title: 'StarBucks Coffee Korea',
     tag: 'TOY',
+    year: '2020',
     dec: 'Clone Coding',
     src: IMG9,
     github: 'https://bit.ly/3NR4apR',
@@ -115,6 +124,7 @@ const Portfolio = () => {
           return (
             <Item key={data.id}>
               <TAG tag={data.tag}>#{data.tag} </TAG>
+              <YearTAG tag={data.year}>#{data.year} </YearTAG>
               <Image src={data.src} />
               <h3>{data.title}</h3>
               <p>{data.dec}</p>
