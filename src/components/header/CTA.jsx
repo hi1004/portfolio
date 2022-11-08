@@ -3,11 +3,16 @@ import { Link } from 'react-scroll';
 
 import { CtaContainer, DownloadCV, TalkButton } from './HeaderSyle';
 
-const CV = '';
+const CV = '/cv.pdf';
 const CTA = () => {
   return (
     <CtaContainer>
-      <DownloadCV href={CV} download variant="outlined" size="large">
+      <DownloadCV
+        href={CV}
+        download="履歴書(オ・ビョンホン)"
+        variant="outlined"
+        size="large"
+      >
         Download CV
       </DownloadCV>
       <Link to="contact" spy>
