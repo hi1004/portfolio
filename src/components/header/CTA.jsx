@@ -7,12 +7,7 @@ const CV = '/cv.pdf';
 const CTA = () => {
   return (
     <CtaContainer>
-      <DownloadCV
-        href={CV}
-        download="履歴書(オ・ビョンホン)"
-        variant="outlined"
-        size="large"
-      >
+      <DownloadCV href="#" variant="outlined" size="large">
         Download CV
       </DownloadCV>
       <Link to="contact" spy>

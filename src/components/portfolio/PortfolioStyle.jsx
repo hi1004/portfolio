@@ -76,7 +76,14 @@ export const TAG = styled.span`
 
 export const YearTAG = styled(TAG)`
   background-color: ${({ tag }) =>
-    tag === '2022' ? '#ff4747' : tag === '2021' ? '#2e7eff' : '#ae6512'};
+    // eslint-disable-next-line
+    tag === '2023'
+      ? '#3ea72b'
+      : tag === '2022'
+      ? '#ff4747'
+      : tag === '2021'
+      ? '#2e7eff'
+      : '#ae6512'};
 `;
 
 export const ItemCTA = styled.div`

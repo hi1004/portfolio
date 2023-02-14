@@ -10,6 +10,7 @@ import {
   PortfolioContainer,
   PortfolioSection,
 } from './PortfolioStyle';
+import IMG0 from '../../assets/images/portfolio0.png';
 import IMG1 from '../../assets/images/portfolio1.jpg';
 import IMG2 from '../../assets/images/portfolio2.jpg';
 import IMG3 from '../../assets/images/portfolio3.jpg';
@@ -21,6 +22,16 @@ import IMG8 from '../../assets/images/portfolio8.jpg';
 import IMG9 from '../../assets/images/portfolio9.jpg';
 
 const dummyData = [
+  {
+    id: 0,
+    title: 'OMDbAPI.COM',
+    dec: 'OMDB API を活用した VanillaJs 映画検索サービス',
+    tag: 'TOY',
+    year: '2023',
+    src: IMG0,
+    github: 'https://github.com/hi1004/vanillajs-movie-app',
+    demo: 'https://ts-movie-app-umber.vercel.app/#/',
+  },
   {
     id: 1,
     title: 'Food Search App',
@@ -100,16 +111,6 @@ const dummyData = [
     src: IMG8,
     github: 'https://bit.ly/3OVenmn',
     demo: 'https://bit.ly/3Az3nqA',
-  },
-  {
-    id: 9,
-    title: 'StarBucks Coffee Korea',
-    tag: 'TOY',
-    year: '2020',
-    dec: 'Clone Coding',
-    src: IMG9,
-    github: 'https://bit.ly/3NR4apR',
-    demo: 'https://bit.ly/3IDSIx3',
   },
 ];
 
