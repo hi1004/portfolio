@@ -40,7 +40,7 @@ const dummyData = [
     year: '2022',
     src: IMG1,
     github: 'https://bit.ly/3uuERTG',
-    demo: 'https://bit.ly/3ytDaqK',
+    demo: 'https://food-search-app-gold.vercel.app/',
   },
   {
     id: 2,
