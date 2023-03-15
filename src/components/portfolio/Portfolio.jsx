@@ -18,10 +18,19 @@ import IMG4 from '../../assets/images/portfolio4.jpg';
 import IMG5 from '../../assets/images/portfolio5.jpg';
 import IMG6 from '../../assets/images/portfolio6.jpg';
 import IMG7 from '../../assets/images/portfolio7.jpg';
-import IMG8 from '../../assets/images/portfolio8.jpg';
-import IMG9 from '../../assets/images/portfolio9.jpg';
+import disney from '../../assets/images/disney_plus.png';
 
 const dummyData = [
+  {
+    id: -1,
+    title: 'React Disney Plus App',
+    dec: 'FireBaseのログイン、TMDB APIを活用した映画検索サービス',
+    tag: 'TOY',
+    year: '2023',
+    src: disney,
+    github: 'https://github.com/hi1004/react-disney-plus-app',
+    demo: 'http://bit.ly/3JGApJn',
+  },
   {
     id: 0,
     title: 'OMDbAPI.COM',
@@ -30,7 +39,7 @@ const dummyData = [
     year: '2023',
     src: IMG0,
     github: 'https://github.com/hi1004/vanillajs-movie-app',
-    demo: 'https://ts-movie-app-umber.vercel.app/#/',
+    demo: 'https://bit.ly/3I7thE2',
   },
   {
     id: 1,
@@ -101,16 +110,6 @@ const dummyData = [
     src: IMG7,
     github: 'https://bit.ly/3PeOyxq',
     demo: 'https://bit.ly/3P62rOI',
-  },
-  {
-    id: 8,
-    title: 'KUMHO',
-    tag: 'TOY',
-    year: '2020',
-    dec: 'KUMHOリニューアルサイト',
-    src: IMG8,
-    github: 'https://bit.ly/3OVenmn',
-    demo: 'https://bit.ly/3Az3nqA',
   },
 ];
 
