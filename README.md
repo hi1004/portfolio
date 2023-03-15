@@ -38,7 +38,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 2. [OMDbAPI.COM](bit.ly/3I7thE2)
+### 2. [OMDbAPI.COM](https://ts-movie-app-umber.vercel.app/#/)
 
 > OMDbAPI.COM (Toy Project)  
 > 開発期間: 2023 年 1 月 17 日 ~ 2 月 20 日
