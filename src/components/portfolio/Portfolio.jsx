@@ -29,7 +29,7 @@ const dummyData = [
     year: '2023',
     src: disney,
     github: 'https://github.com/hi1004/react-disney-plus-app',
-    demo: 'http://bit.ly/3JGApJn',
+    demo: 'https://react-disney-plus-app-e1dbc.web.app/',
   },
   {
     id: 0,
