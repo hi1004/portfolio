@@ -51,7 +51,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 3. [Food Search App](https://bit.ly/3ytDaqK)
+### 3. [Food Search App](https://food-search-app-gold.vercel.app/)
 
 > Food Search App (Team Project)  
 > 開発期間: 2022 年 1 月 26 日 ~ 2 月 25 日（4 週間）
