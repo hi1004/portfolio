@@ -10,7 +10,7 @@
 
 HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の開発経験</b>があります。これからも向上心を持ってフロントエンジニアとして成長していきたいです。
 
-<b style="color: red">現在は大学の IT サークルの会長</b>としてチームプロジェクト活動や部員募集などの運営を行っています。 去年の部員募集では効率的にサークルを広報するため、チームでサイトを一から作り上げました。その結果、<b>20人</b>の部員を増やすことができました。
+<b style="color: red">現在は大学の IT サークルの会長</b>としてチームプロジェクト活動や部員募集などの運営を行っています。 去年の部員募集では効率的にサークルを広報するため、チームでサイトを一から作り上げました。その結果、<b>20 人</b>の部員を増やすことができました。
 
 個人がしたいことよりは、<b style="color: red">会社(サークル)やチームに役立つこと</b>がしたかったので、WEB スタディーやプロジェクト発表会を開くなど<b style="color: red">チームとして活躍できるよう</b>に愚直にサークルの運営をしてきました。
 
@@ -25,7 +25,33 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ## :pushpin: Projects
 
-### 1. [Food Search App](https://bit.ly/3ytDaqK)
+### 1. [React Disney Plus App-clone](https://react-disney-plus-app-e1dbc.web.app/)
+
+> React Disney Plus App-clone (Toy Project)  
+> 開発期間: 2023 年 3 月 9 日 ~ 3 月 16 日
+>
+> 技術スタック:  
+> React / Styled-Components / TMDB API
+> Firebase / Swiper / Axios / React-Router
+>
+> [プロジェクト詳細説明](https://github.com/hi1004/react-disney-plus-app) 参考
+
+---
+
+### 2. [OMDbAPI.COM](bit.ly/3I7thE2)
+
+> OMDbAPI.COM (Toy Project)  
+> 開発期間: 2023 年 1 月 17 日 ~ 2 月 20 日
+>
+> 技術スタック:  
+> JavaScript / TypeScript / OMDB API
+> Django(DRF) / Nginx / SQLite / AWS EC2
+>
+> [プロジェクト詳細説明](https://github.com/hi1004/vanillajs-movie-app) 参考
+
+---
+
+### 3. [Food Search App](https://bit.ly/3ytDaqK)
 
 > Food Search App (Team Project)  
 > 開発期間: 2022 年 1 月 26 日 ~ 2 月 25 日（4 週間）
@@ -38,7 +64,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 2. [ICHIGO ICHIE](https://bit.ly/3NM3RN6)
+### 4. [ICHIGO ICHIE](https://bit.ly/3NM3RN6)
 
 > Jbit IT Group2 HomePage (Team Project)  
 > 開発期間: 2021 年 11 月 18 日 ~ 11 月 26 日（1 週間）
@@ -50,7 +76,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 3. [J-bit United IT](https://bit.ly/3yNto4e)
+### 5. [J-bit United IT](https://bit.ly/3yNto4e)
 
 > J-bit United IT (Team Project)  
 > 開発期間: 2021 年 10 月 ~ 11 月（一ヶ月）
@@ -62,7 +88,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 4. [Typing Game](https://bit.ly/3uxTy8u)
+### 6. [Typing Game](https://bit.ly/3uxTy8u)
 
 > Typing Game App (Team Project)  
 > 開発期間: 2022 年 5 月 20 日 ~ 5 月 29 日（約 1 週）
@@ -74,7 +100,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 5. [YULP](https://bit.ly/3PdYaIR)
+### 7. [YULP](https://bit.ly/3PdYaIR)
 
 > YULP リニューアルサイト (Toy Project)  
 > 開発期間: 2020 年 （約 3 週）
@@ -86,7 +112,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 6. [Lotte](https://bit.ly/3RosuTc)
+### 8. [Lotte](https://bit.ly/3RosuTc)
 
 > Lotte リニューアルサイト (Toy Project)  
 > 開発期間: 2020 年 （約 3 週）
@@ -98,7 +124,7 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 
 ---
 
-### 7. [MARUGAME](https://bit.ly/3P62rOI)
+### 9. [MARUGAME](https://bit.ly/3P62rOI)
 
 > MARUGAME リニューアルサイト (Toy Project)  
 > 開発期間: 2020 年 （約 3 週）
@@ -107,30 +133,6 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2 年以上の�
 > Jquery 3 / HTML / CSS / JavaScript / Slick / ScrollMagic
 >
 > [プロジェクト詳細説明](https://bit.ly/3PeOyxq) 参考
-
----
-
-### 8. [KUMHO](https://bit.ly/3Az3nqA)
-
-> KUMHO リニューアルサイト (Toy Project)  
-> 開発期間: 2020 年 （約 3 週）
->
-> 技術スタック:  
-> Jquery 3 / HTML / CSS / JavaScript / Fullpage
->
-> [プロジェクト詳細説明](https://bit.ly/3OVenmn) 参考
-
----
-
-### 9. [StarBucks Coffee Korea](https://bit.ly/3IDSIx3)
-
-> StarBucks Coffee Clone Coding (Toy Project)  
-> 開発期間: 2021 年 5 月 29 日 ~ 6 月 7 日（約 1 週）
->
-> 技術スタック:  
-> HTML / Scss / Lodash / Scrollmagic / Swiper
->
-> [プロジェクト詳細説明](https://bit.ly/3NR4apR) 参考
 
 ---
 
