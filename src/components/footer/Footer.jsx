@@ -55,7 +55,9 @@ const Footer = ({ themeMode }) => {
       </Socials>
 
       <Copyright>
-        <small>&copy; Oh ByeongHeon. All rights reserved.</small>
+        <small>
+          &copy;{new Date().getFullYear()} Oh ByeongHeon. All rights reserved.
+        </small>
       </Copyright>
     </FooterSection>
   );
