@@ -43,14 +43,6 @@ const About = () => {
               <small>2+ Years Experience</small>
             </AboutCard>
 
-            {/* <AboutCard className={active ? 'active' : ''}>
-              <AboutIconBox>
-                <MilitaryTechOutlinedIcon />
-              </AboutIconBox>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </AboutCard> */}
-
             <AboutCard className={active ? 'active' : ''}>
               <AboutIconBox>
                 <FolderCopyOutlinedIcon />
@@ -66,9 +58,9 @@ const About = () => {
               があります。これからも向上心を持って、フロントエンジニアとして成長していきたいです。
             </p>
             <p>
-              <span>現在は大学のITサークルの会長</span>
-              としてチームプロジェクト活動や部員募集などの運営を行っています。
-              去年の部員募集では効率的にサークルを広報するため、チームでサイトを一から作り上げました。
+              <span>学生時代では大学の IT サークルの会長</span>
+              としてチームプロジェクト活動や部員募集などの運営を行っていました。
+              2021年の部員募集では効率的にサークルを広報するため、3人チームでサイトを一から作り上げました。
               <span>その結果、 20人の部員</span>を増やすことができました。
             </p>
             <p>
