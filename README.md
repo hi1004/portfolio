@@ -140,4 +140,4 @@ HTML & CSS & JavaScript / React & Vue で <b style="color: red">2年以上の開
 
 ## :pushpin: Education.
 
-2016.03-2022.02 釜山外国語大学 日本語創意融合学部
+2016.03-2023.02 釜山外国語大学 日本語創意融合学部
