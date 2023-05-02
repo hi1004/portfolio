@@ -13,7 +13,7 @@ const HeaderSocials = () => {
       <IconBox href="https://www.instagram.com/byeongheonn/" target="_blank">
         <InstagramIcon />
       </IconBox>
-      <IconBox href="https://twitter.com/buorusia" target="_blank">
+      <IconBox href="https://twitter.com/byorusia" target="_blank">
         <TwitterIcon />
       </IconBox>
     </HeaderSocialsContainer>

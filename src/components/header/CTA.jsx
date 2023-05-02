@@ -7,9 +7,12 @@ const CV = '/cv.pdf';
 const CTA = () => {
   return (
     <CtaContainer>
-      <DownloadCV href="#" variant="outlined" size="large">
-        Download CV
-      </DownloadCV>
+      <a href={CV} download>
+        <DownloadCV variant="outlined" size="large">
+          Download CV
+        </DownloadCV>
+      </a>
+
       <Link to="contact" spy>
         <TalkButton variant="contained" size="large">
           Let's Talk

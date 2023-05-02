@@ -13,6 +13,9 @@ export const HeaderContainer = styled(Container)`
   height: 100%;
   padding-top: 7rem;
   position: relative;
+  ${props => props.theme.device.mobile} {
+    padding-top: 10rem;
+  }
 `;
 
 export const FixedHeader = styled.header`
@@ -123,6 +126,10 @@ export const ImageContainer = styled.div`
 
   ${props => props.theme.device.tablet} {
     bottom: unset;
+  }
+  ${props => props.theme.device.mobile} {
+    width: 50vw;
+    height: unset;
   }
 `;
 
