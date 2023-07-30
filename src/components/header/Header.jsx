@@ -1,3 +1,4 @@
+import React from 'react';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import { TextLight, PrimaryText } from '../../styles/CommonSyle';

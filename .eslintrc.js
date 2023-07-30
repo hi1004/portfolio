@@ -6,6 +6,7 @@ module.exports = {
     amd: true,
   },
   extends: [
+    'react-app',
     'eslint:recommended',
     'airbnb',
     'airbnb/hooks',
